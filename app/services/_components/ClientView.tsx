@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import CTASection from "../../components/CTASection";
+import CTASection from "../../../components/CTASection";
 
 const services = [
   {
@@ -30,7 +30,7 @@ const services = [
   },
 ];
 
-export default function ServicesPageClient() {
+export default function ClientView() {
   return (
     <div className="bg-white text-gray-900">
       <section className="py-20 px-6 max-w-7xl mx-auto">
@@ -71,7 +71,6 @@ export default function ServicesPageClient() {
           ))}
         </div>
       </section>
-
       <CTASection />
     </div>
   );

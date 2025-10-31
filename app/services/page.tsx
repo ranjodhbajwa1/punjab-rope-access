@@ -1,4 +1,4 @@
-import ServicesPageClient from "./ServicesPageClient";
+import ClientView from "./_components/ClientView";
 
 export const metadata = {
   title: "Our Services | Punjab Rope Access Calgary",
@@ -7,5 +7,5 @@ export const metadata = {
 };
 
 export default function ServicesPage() {
-  return <ServicesPageClient />;
+  return <ClientView />;
 }
