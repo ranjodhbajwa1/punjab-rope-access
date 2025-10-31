@@ -59,7 +59,7 @@ export default function ContactForm() {
               name="message"
               placeholder="Project Details"
               required
-              rows={4}
+              rows={5}
               className="p-3 rounded-md bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-600"
 
             />

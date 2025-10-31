@@ -14,9 +14,13 @@ export default function WindowCleaningPage() {
           High-Rise Window Cleaning – Calgary
         </h1>
         <p className="text-lg mb-8 leading-relaxed">
-          Our IRATA-certified technicians provide spotless high-rise window
-          cleaning for commercial and residential towers throughout Calgary.
-          We use rope-access methods for maximum safety and minimal disruption.
+          We offer professional high-rise window cleaning services across Calgary 
+          using advanced rope access techniques. Our experienced technicians 
+          deliver streak-free results for commercial, residential, and high-rise 
+          properties while maintaining strict safety standards. With eco-friendly 
+          cleaning products and modern equipment, Punjab Rope Access ensures your 
+          building looks spotless year-round. Get a quote for reliable and 
+          affordable window cleaning services in Calgary.
         </p>
 
         <Image
