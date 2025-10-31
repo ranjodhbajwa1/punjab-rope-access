@@ -30,11 +30,12 @@ export default function Hero() {
         transition={{ delay: 0.8 }}
       >
         <Link
-          href="/contact"
-          className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold"
-        >
-          Request a Quote
-        </Link>
+  href="/services"
+  className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold"
+>
+  View Our Services
+</Link>
+
       </motion.div>
     </section>
   );

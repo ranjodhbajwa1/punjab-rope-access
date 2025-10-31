@@ -6,7 +6,6 @@ const services = [
     title: "High-Rise Window Cleaning",
     desc: "Professional window cleaning for commercial and residential towers.",
     img: "/images/service-window.jpg",
-    <Link href="/services/window-cleaning">Read More</Link>
 
   },
   {
