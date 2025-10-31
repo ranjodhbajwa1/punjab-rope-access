@@ -2,7 +2,10 @@
 module.exports = {
   siteUrl: 'https://punjabropeaccess.com',
   generateRobotsTxt: true,
-  sitemapSize: 5000,
+  outDir: './public', // explicitly target your /public folder
+  sitemapBaseFileName: 'sitemap',
+  exclude: ['/404'],
   changefreq: 'monthly',
   priority: 0.8,
+  generateIndexSitemap: false,
 };

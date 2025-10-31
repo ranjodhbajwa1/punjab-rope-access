@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://punjabropeaccess.com
+
+# Sitemaps
+Sitemap: https://punjabropeaccess.com/sitemap.xml
