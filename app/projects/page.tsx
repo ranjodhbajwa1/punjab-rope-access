@@ -26,6 +26,9 @@ export default function ProjectsPage() {
 }
   */
 
+/* Note : This is extra code just in case new does not work
+          this was done on nov 2 2025 2:40 am
+
 "use client";
 import { motion } from "framer-motion";
 import CTASection from "../../components/CTASection";
@@ -107,4 +110,17 @@ export default function ProjectsPage() {
       <CTASection />
     </div>
   );
+}
+*/
+
+import ClientView from "./_components/ClientView";
+
+export const metadata = {
+  title: "Projects | Punjab Rope Access Calgary",
+  description:
+    "Recent Calgary rope access projects including window cleaning, anchor inspections, and facade maintenance by Punjab Rope Access.",
+};
+
+export default function ProjectsPage() {
+  return <ClientView />;
 }
