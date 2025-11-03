@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import FloatingCTA from "../components/FloatingCTA";
 
 export const metadata = {
   title: {
@@ -74,6 +75,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }}
 />
 
+      </body>
+    </html>
+  );
+}
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <FloatingCTA />
       </body>
     </html>
   );
