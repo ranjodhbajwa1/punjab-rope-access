@@ -21,7 +21,6 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -30,61 +29,55 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="pt-20">{children}</main>
         <Footer />
 
-
-        <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      name: "Punjab Rope Access",
-      image: "https://punjabropeaccess.com/logo.png",
-      "@id": "https://punjabropeaccess.com",
-      url: "https://punjabropeaccess.com",
-      telephone: "+1-403-000-0000",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Calgary Downtown",
-        addressLocality: "Calgary",
-        addressRegion: "AB",
-        postalCode: "T2P",
-        addressCountry: "CA",
-      },
-      openingHours: "Mo-Fr 08:00-18:00",
-      sameAs: [
-        "https://www.facebook.com/punjabropeaccess",
-        "https://www.instagram.com/punjabropeaccess",
-        "https://www.linkedin.com/company/punjabropeaccess",
-      ],
-    }),
-  }}
-/>
-      <script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-WTFT4LSMRF"
-></script>
-<script
-  id="ga-init"
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-WTFT4LSMRF');
-    `,
-  }}
-/>
-
-      </body>
-    </html>
-  );
-}
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
+        {/* Floating buttons */}
         <FloatingCTA />
+
+        {/* JSON-LD Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Punjab Rope Access",
+              image: "https://punjabropeaccess.com/logo.png",
+              "@id": "https://punjabropeaccess.com",
+              url: "https://punjabropeaccess.com",
+              telephone: "+1-403-000-0000",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Calgary Downtown",
+                addressLocality: "Calgary",
+                addressRegion: "AB",
+                postalCode: "T2P",
+                addressCountry: "CA",
+              },
+              openingHours: "Mo-Fr 08:00-18:00",
+              sameAs: [
+                "https://www.facebook.com/punjabropeaccess",
+                "https://www.instagram.com/punjabropeaccess",
+                "https://www.linkedin.com/company/punjabropeaccess",
+              ],
+            }),
+          }}
+        />
+
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-WTFT4LSMRF"
+        ></script>
+        <script
+          id="ga-init"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WTFT4LSMRF');
+            `,
+          }}
+        />
       </body>
     </html>
   );
