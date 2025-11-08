@@ -36,18 +36,47 @@ export default function ClientView() {
             <h3 className="font-semibold text-xl mb-2">Certified Team</h3>
             <p className="text-gray-600">
               IRATA-certified technicians with years of high-rise experience.
+              Our IRATA-certified technicians bring professional expertise to every project, ensuring safe and efficient rope access operations.
+              Each team member is trained, qualified, and compliant with industry safety regulations and best practices.
             </p>
           </div>
           <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md transition">
             <h3 className="font-semibold text-xl mb-2">Safety First</h3>
             <p className="text-gray-600">
               Full compliance with industrial rope-access safety protocols.
+              Safety is our top priority on every job, from planning to execution.
+              We follow strict IRATA and OH&S standards to ensure a controlled, risk-free work environment.
             </p>
           </div>
           <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md transition">
             <h3 className="font-semibold text-xl mb-2">Local Expertise</h3>
             <p className="text-gray-600">
               Based in Calgary and serving Alberta’s property managers.
+              We understand the city’s building structures, weather, and maintenance needs.
+              Our local expertise ensures reliable service tailored to Calgary’s unique conditions and regulations.
+            </p>
+          </div>
+          <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md transition">
+            <h3 className="font-semibold text-xl mb-2">Fully Insured</h3>
+            <p className="text-gray-600">
+              We are fully insured and certified, ensuring every project meets the highest safety and compliance standards.
+              Your property and our team are protected under comprehensive liability
+            </p>
+          </div>
+          <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md transition">
+            <h3 className="font-semibold text-xl mb-2">WCB Compliant</h3>
+            <p className="text-gray-600">
+              We are fully WCB compliant, ensuring every technician is protected under workplace safety coverage.
+              Our operations meet Alberta’s Workers’ Compensation Board standards for incident prevention and accountability.
+              This commitment guarantees safe, transparent, and professional service on every project.
+            </p>
+          </div>
+          <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md transition">
+            <h3 className="font-semibold text-xl mb-2">Professional & Reliable</h3>
+            <p className="text-gray-600">
+              We deliver consistent, high-quality results with a focus on professionalism and punctuality.
+              Clients trust us for clear communication, dependable scheduling, and attention to detail.
+              Our reputation is built on reliability and long-term client satisfaction.
             </p>
           </div>
         </motion.div>

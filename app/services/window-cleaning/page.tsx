@@ -26,16 +26,18 @@ export default function WindowCleaningPage() {
         <Image
           src="/images/service-window.jpg"
           alt="High-rise window cleaning"
-          width={1200}
+          width={600}
           height={600}
           className="rounded-lg mb-10"
         />
 
+        {/*
         <video
           src="/videos/window-cleaning-demo.mp4"
           controls
           className="w-full rounded-lg mb-10"
         />
+        */}
 
         <p className="text-lg">
           To schedule your next cleaning or maintenance,{" "}

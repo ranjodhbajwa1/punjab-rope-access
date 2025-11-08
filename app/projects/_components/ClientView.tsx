@@ -4,22 +4,22 @@ import CTASection from "../../../components/CTASection";
 
 const projects = [
   {
-    name: "Downtown Calgary Tower",
+    name: "BEVA Inspections at The Westin Downtown Calgary ",
     summary:
-      "Full facade high-rise window cleaning project completed within three days with zero safety incidents.",
-    img: "/images/project-tower.jpg",
+      "BEVA inspection conducted at The Westin Hotel in downtown Calgary involved a Building Exterior Visual Assessment of all accessible façade elements using rope access. The inspection focused on identifying structural deterioration, loose materials, cracks, and potential safety hazards on the building envelope. Technicians documented conditions through high-resolution photographs and detailed notes for each elevation. Findings will be compiled into a report with repair recommendations to maintain façade integrity and compliance with Calgary’s building safety standards.",
+    /* img: "/images/project-tower.jpg", */
   },
   {
-    name: "Beltline Office Complex",
+    name: "Window Cleaning At Sunlife Plaza at 4th Ave SW Calgary",
     summary:
-      "Anchor inspection and BEVA testing for a 25-storey building following CSA Z91 compliance.",
-    img: "/images/project-beltline.jpg",
+      "Window cleaning at Sun Life Plaza, 4th Avenue SW, Calgary, was completed using industrial rope access methods to safely reach all high-rise glass façades. The scope included thorough exterior cleaning of curtain walls, frames, and spandrels to remove dirt, mineral deposits, and construction residue. The project was executed with minimal disruption to building operations, following safety protocols and weather considerations. The result restored full glass clarity and enhanced the building’s professional appearance in Calgary’s downtown core.",
+    /* img: "/images/project-beltline.jpg", */
   },
   {
-    name: "Residential High-Rise",
+    name: "Painting at Waterfront Condo's",
     summary:
-      "Comprehensive exterior caulking and pressure washing to restore facade appearance and seal integrity.",
-    img: "/images/project-residential.jpg",
+      "Restoration and painting work at Waterfront Condos, Calgary, involved a full façade maintenance project carried out using rope access. The scope included surface preparation, crack repairs, sealant replacement, and application of high-performance exterior coatings to protect against moisture and UV damage. All work was performed at height with minimal impact on residents and surroundings. The project restored the building’s appearance, extended the service life of exterior materials, and ensured long-term durability against Calgary’s weather conditions.",
+    /* img: "/images/project-residential.jpg", */
   },
 ];
 
@@ -56,11 +56,13 @@ export default function ClientView() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="bg-gray-100 rounded-xl overflow-hidden shadow hover:shadow-lg transition"
             >
+              {/* only remove when you have pictures for projects
               <img
                 src={p.img}
                 alt={p.name}
                 className="h-56 w-full object-cover"
               />
+              */}
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{p.name}</h3>
                 <p className="text-gray-600 text-sm">{p.summary}</p>

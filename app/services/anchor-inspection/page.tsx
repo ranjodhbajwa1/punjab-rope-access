@@ -27,16 +27,19 @@ export default function WindowCleaningPage() {
         <Image
           src="/images/service-anchor.jpg"
           alt="anchor inspection Calgary, BEVA testing Calgary"
-          width={1200}
+          width={600}
           height={600}
           className="rounded-lg mb-10"
         />
 
+        { /* 
         <video
           src="/videos/window-cleaning-demo.mp4"
           controls
           className="w-full rounded-lg mb-10"
-        />
+        /> 
+         Delete the curly brackets to delete the note on video block
+        */ }
 
         <p className="text-lg">
           To schedule your next Inspection or maintenance,{" "}
