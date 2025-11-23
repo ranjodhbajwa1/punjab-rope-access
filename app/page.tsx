@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Services from "../components/Services";
+import ReferralRewards from "../components/ReferralRewards";
 import ContactForm from "../components/ContactForm";
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
     <>
       <Hero />
       <Services />
+      <ReferralRewards />
       <ContactForm />
     </>
   );
